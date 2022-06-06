@@ -28,6 +28,11 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   
   .separator {
     margin: 20px auto;
@@ -52,6 +57,16 @@ p {
   .btn-primary:hover {
     background: #222;
     color: white;
+  }
+  .btn-dark {
+    background: #222;
+    color: white;
+  }
+  
+  .btn-dark:hover {
+    background: white;
+    color: #222;
+    border: 1px solid #222 ;
   }
   
   .container {
@@ -126,4 +141,28 @@ p {
 .feature{
     float: right;
     width: 50%;
+}
+/* end detail */
+/* person */
+.person{
+    height: 450px;
+    background: url("../images/cafe3.jpg") center center/cover;
+}
+
+/* end person */
+/* reservation */
+.reservation{
+    padding-top: 100px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    background: #222;
+    margin-bottom: 0;
+    padding: 20px;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
 }
