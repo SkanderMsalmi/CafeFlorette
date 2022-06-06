@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
+}
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 
 /* general */
@@ -14,7 +20,46 @@ a {
     color: #222;
     text-decoration: none;
 }
-
+p {
+    margin-bottom: 10px;
+  }
+  
+  .my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .separator {
+    margin: 20px auto;
+    height: 10px;
+    width: 100px;
+    background: #111;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+  }
+  
+  .btn-primary {
+    background: white;
+    color: #222;
+  }
+  
+  .btn-primary:hover {
+    background: #222;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+  }
+  /* header */
 .header{
     background-color: black;
     overflow: auto;
@@ -47,4 +92,38 @@ a {
 .header nav ul li a:hover,
 .active{
     background:#444;
+}
+
+/* Details */
+.vp{
+    height: 700px;
+    background: url("../images/cafe1.jpg") center center;
+    background-size: cover;
+    text-align: center;
+}
+.vp-content{
+    margin: auto;
+    padding-top: 150px;
+    max-width: 600px;
+    color: white;
+    
+}
+
+.vp-content h1{
+  font-size: 50px;
+}
+
+.vp-content p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+}
+.features{
+    overflow: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.feature{
+    float: right;
+    width: 50%;
 }
