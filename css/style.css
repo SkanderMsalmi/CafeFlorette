@@ -33,14 +33,31 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+  .chip{
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+  }
+
+  .chip-purple{
+    background: purple;
+  }
+
+  .chip-brown{
+    background: brown;
+  }
   .separator {
     margin: 20px auto;
     height: 10px;
     width: 100px;
     background: #111;
   }
-  
+  .underline{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
   .btn {
     display: inline-block;
     font-size: 14px;
@@ -165,4 +182,25 @@ footer{
     color: white;
     margin-top: 100px;
     text-align: center;
+}
+
+/* Nous troouvez */
+
+
+
+.where{
+  margin : auto;
+  margin-top: 180px;
+  overflow: auto;
+}
+.where .where-img{
+  max-width: 45%;
+  max-height: 500px;
+  border: 1px solid #ddd;
+  float:left;
+  border-radius: 5px;
+}
+.where .where-text{
+  float:right;
+  width: 50%;
 }
