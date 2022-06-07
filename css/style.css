@@ -204,3 +204,33 @@ footer{
   float:right;
   width: 50%;
 }
+
+
+/* contact */
+.contact {
+  padding: 180px 0px 100px 0px;
+  min-height: 100vh;
+}
+
+.contact-form-container{
+  max-width: 600px;
+  margin: auto;
+}
+.contact form{
+  margin :auto;
+  
+}
+.contact form label{
+  display: block;
+  font-weight: bold;
+}
+.contact form input,textarea{
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact form textarea{
+  min-height: 80px;
+}
