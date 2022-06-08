@@ -1,0 +1,77 @@
+/* header */
+.header{
+    background-color: #222;
+    
+}
+.header nav h1 {
+    float: none;
+    text-align: center;
+}
+
+.header nav ul {
+    float :none;
+}
+
+.header nav ul li {
+    float: none;
+    text-align: center;
+}
+
+.header nav ul li a {
+    padding: 10px;
+}
+
+/* vp */
+.vp-content{
+    padding-top: 50px;
+
+}
+.vp-content h1{
+  font-size: 2rem;
+}
+
+/* features */
+
+.feature{
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+/* Nous troouvez */
+
+
+
+.where{
+    padding: 80px 20px 50px 20px;
+    overflow: auto;
+    min-height: 100vh;
+  }
+  .where .where-img{
+    float:none;
+    width: 80%;
+    border: 0px;
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  .where .where-text{
+    float:none;
+    width: 100%;
+  }
+
+
+  /* contact */
+
+  .contact {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .contact button{
+
+      margin-left: 25%;
+      margin-top: 20px;
+  }
